@@ -1,5 +1,5 @@
 <template>
-    <div class="container my-5">
+    <div class="my-5 reeg">
         <h1>Create an account</h1>
         <form action="#" @submit.prevent="register">
             <div class="row justify-content-center">
@@ -59,6 +59,7 @@ export default {
                     this.name = ''
                     this.email = ''
                     this.password = ''
+                    this.$router.push({name:'dashboard'})
                     console.log(user)
                 }).catch( err => {
                     this.error = err.message
@@ -70,3 +71,8 @@ export default {
     }
 }
 </script>
+<style scoped>
+.reeg{
+text-align: center;
+}
+</style>

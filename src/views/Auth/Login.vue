@@ -1,5 +1,5 @@
 <template>
-    <div class="container my-5">
+    <div class="loog my-5">
         <h1 class="mb-5">Log Into your account</h1>
         <form action="#" @submit.prevent="login">
             <div class="row justify-content-center">
@@ -60,3 +60,8 @@ export default {
     }
 }
 </script>
+<style scoped>
+.loog{
+    text-align: center;
+}
+</style>
