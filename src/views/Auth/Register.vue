@@ -3,20 +3,20 @@
         <h1>Create an account</h1>
         <form action="#" @submit.prevent="register">
             <div class="row justify-content-center">
-                <div class="mb-3 col-6">
+                <div class="mb-3 col-5">
                     <label for="exampleInputName1" class="form-label">Name</label>
                     <input type="text" class="form-control text-center" id="exampleInputName1" placeholder="your Name here" v-model="name">
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="mb-3 col-6">
+                <div class="mb-3 col-5">
                     <label for="exampleInputEmail1" class="form-label">Email address</label>
                     <input type="email" class="form-control text-center" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ex: Someone@wolfy.cl" v-model="email">
                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="mb-3 col-6">
+                <div class="mb-3 col-5">
                     <label for="exampleInputPassword1" class="form-label">Password</label>
                     <input type="password" class="form-control text-center" id="exampleInputPassword1" placeholder="your password here" v-model="password">
                 </div>
@@ -74,5 +74,9 @@ export default {
 <style scoped>
 .reeg{
 text-align: center;
+width: 100%;
+}
+form{
+    width: 98%;
 }
 </style>

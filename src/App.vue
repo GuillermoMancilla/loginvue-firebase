@@ -29,6 +29,7 @@ export default {
   /* margin-top: 60px; */
   max-height: 100%;
   height: 100%;
+  width: 100%;
 }
 /* .nav1{
   height: 10%;

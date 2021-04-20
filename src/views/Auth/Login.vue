@@ -64,4 +64,7 @@ export default {
 .loog{
     text-align: center;
 }
+form{
+    width: 98%;
+}
 </style>
